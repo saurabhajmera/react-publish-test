@@ -44,6 +44,7 @@
     "**/**/*.test.tsx",
     "**/**/*.test.ts",
     "config",
-    "dist"
+    "dist",
+    ".idea"
   ]
 }
