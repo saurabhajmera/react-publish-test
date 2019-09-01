@@ -21,7 +21,7 @@
     "start": "npm-run-all -p watch-sass-to-css start-js",
     "build-js": "react-scripts build",
     "build": "npm-run-all -p build-sass-to-css build-js",
-    "build-lib": "rm -rf build && tsc && npm run build-sass-to-css && npm run copy-css-to-lib",
+    "build-lib": "rm -rf build && tsc --build tsconfig.lib.json  && npm run build-sass-to-css && npm run copy-css-to-lib",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "styleguide": "npm-run-all -p watch-sass-to-css styleguidist",
